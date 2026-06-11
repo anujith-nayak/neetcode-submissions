@@ -1,0 +1,9 @@
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        op=0
+        for num in nums:
+            op=num^op
+        return op
+        
+
+        
